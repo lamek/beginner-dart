@@ -1,2 +1,5 @@
+workspace/
 venv/
 scripts/
+generated/
+list-of-problem-titles/
