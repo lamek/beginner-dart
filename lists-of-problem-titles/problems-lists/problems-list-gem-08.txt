@@ -1,0 +1,109 @@
+Okay, here are 5 beginner coding exercise ideas for each category, formatted as requested, suitable for learning Dart:
+
+**Variables and Data Types (int, double, String, bool, List, Map)**
+
+"Variables and Data Types (int, double, String, bool, List, Map)
+Personal Profile:
+Create variables to store your name (String), age (int), height in meters (double), and whether you are a student (bool). Print each variable with a descriptive label.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Simple Calculation:
+Declare two integer variables, `num1` and `num2`. Assign them values. Calculate their sum, difference, product, and quotient (as a double). Store each result in a separate variable and print them.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Favorite Hobbies List:
+Create a List<String> to store your favorite hobbies. Add at least three hobbies. Print the hobby at index 1. Then, remove one hobby and print the final list.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Simple Dictionary (Map):
+Create a Map<String, String> to store translations (e.g., 'hello' -> 'hola'). Add three word pairs. Look up the translation for one word and print it. Print the entire map.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Shopping Cart Total:
+Create a List<double> representing prices of items in a shopping cart. Calculate the total cost by summing the prices. Create a boolean variable `hasDiscountCoupon` and print a message indicating if a discount will be applied (just print the boolean's value for now)."
+
+**Operators (arithmetic, comparison, logical)**
+
+"Operators (arithmetic, comparison, logical)
+Rectangle Area and Perimeter:
+Declare variables for the length and width of a rectangle. Calculate the area (length * width) and perimeter (2 * (length + width)) using arithmetic operators. Print both results.",
+"Operators (arithmetic, comparison, logical)
+Age Eligibility Check:
+Declare an integer variable `age`. Use comparison operators (>, <, >=, <=) to check if the age is sufficient for voting (18 or older). Print a boolean result (true or false).",
+"Operators (arithmetic, comparison, logical)
+Even or Odd Checker:
+Declare an integer variable `number`. Use the modulo operator (%) to determine if the number is even or odd (Hint: `number % 2 == 0`). Print a message indicating whether it's even or odd.",
+"Operators (arithmetic, comparison, logical)
+Login Access Logic:
+Declare two boolean variables: `isUsernameCorrect` and `isPasswordCorrect`. Use the logical AND operator (&&) to determine if login access should be granted. Print the boolean result.",
+"Operators (arithmetic, comparison, logical)
+Discount Eligibility:
+Declare variables for customer `age` (int) and `isMember` (bool). Use comparison and logical operators (e.g., `||`, `&&`, `>=`) to check if a customer is eligible for a discount (e.g., age >= 65 OR isMember is true). Print the boolean eligibility result."
+
+**Control Flow (if-else, for loops, while loops, switch statements)**
+
+"Control Flow (if-else, for loops, while loops, switch statements)
+Number Sign Checker:
+Declare an integer variable `number`. Use if-else if-else statements to check if the number is positive, negative, or zero. Print the corresponding message.",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Print Numbers 1 to 10:
+Use a `for` loop to iterate through numbers from 1 to 10 (inclusive) and print each number on a new line.",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Countdown Timer:
+Use a `while` loop to count down from 5 to 1. Print each number, and after the loop finishes, print "Blast off!".",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Day of the Week Printer:
+Declare an integer variable `dayNumber` (1-7). Use a `switch` statement to print the corresponding day name (e.g., 1 -> "Monday", 7 -> "Sunday"). Include a default case for invalid numbers.",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Sum of List Elements:
+Create a List<int> with several numbers. Use a `for` loop (or a for-in loop) to iterate through the list and calculate the sum of all its elements. Print the final sum."
+
+**Functions (parameters, return values)**
+
+"Functions (parameters, return values)
+Greeting Function:
+Create a function named `greetUser` that takes a `String` parameter `name`. The function should print a greeting message like "Hello, [name]!". Call the function with your name.",
+"Functions (parameters, return values)
+Addition Function:
+Create a function named `add` that takes two `int` parameters (`a` and `b`) and returns their sum (`int`). Call the function with two numbers and print the returned result.",
+"Functions (parameters, return values)
+isEven Function:
+Create a function named `isEven` that takes an `int` parameter `number` and returns a `bool` indicating whether the number is even (true) or odd (false). Test it with different numbers and print the results.",
+"Functions (parameters, return values)
+Calculate Rectangle Area Function:
+Create a function `calculateArea` that takes `double width` and `double height` as parameters and returns the calculated area (`double`). Call this function and print the area for a specific rectangle.",
+"Functions (parameters, return values)
+List Average Function:
+Create a function `calculateAverage` that takes a `List<double>` as a parameter and returns the average (`double`) of the numbers in the list. Handle the case of an empty list (return 0.0). Test it with a list of numbers."
+
+**Classes and Objects (inheritance, polymorphism)**
+
+"Classes and Objects (inheritance, polymorphism)
+Simple `Person` Class:
+Define a class named `Person` with properties for `name` (String) and `age` (int). Create a constructor to initialize these properties. Create an instance (object) of `Person` and print its name and age.",
+"Classes and Objects (inheritance, polymorphism)
+`Dog` Class with Method:
+Define a class named `Dog` with properties `name` (String) and `breed` (String). Add a method `bark()` that prints "Woof!". Create a `Dog` object and call its `bark()` method.",
+"Classes and Objects (inheritance, polymorphism)
+Basic Inheritance - `Vehicle` and `Car`:
+Define a base class `Vehicle` with a property `speed` (double). Define a subclass `Car` that inherits from `Vehicle` and adds a property `numberOfDoors` (int). Create an instance of `Car` and set its properties.",
+"Classes and Objects (inheritance, polymorphism)
+`BankAccount` Class:
+Define a class `BankAccount` with a `double balance` property (initialize to 0). Add methods `deposit(double amount)` and `withdraw(double amount)` that update the balance. Add a `getBalance()` method that returns the current balance. Create an account object and test the methods.",
+"Classes and Objects (inheritance, polymorphism)
+Simple Polymorphism - `Animal` Sounds:
+Define a base class `Animal` with a method `makeSound()` that prints "Some generic sound". Create two subclasses, `Cat` and `Dog`, that override `makeSound()` to print "Meow" and "Woof!" respectively. Create a `List<Animal>` containing a `Cat` and a `Dog` object, and loop through the list calling `makeSound()` on each."
+
+**Asynchronous Programming (Futures, async/await)**
+
+"Asynchronous Programming (Futures, async/await)
+Simulated Delayed Message:
+Create an asynchronous function `fetchDelayedMessage` that waits for 2 seconds using `Future.delayed` and then returns the String "Message received!". Use `async`/`await` to call this function and print the message.",
+"Asynchronous Programming (Futures, async/await)
+Simulate User Data Fetch:
+Create an async function `fetchUserData` that simulates fetching data by waiting for 1 second and returning a `Map<String, dynamic>` like `{'name': 'Alice', 'id': 123}`. Call this function and print the fetched user name.",
+"Asynchronous Programming (Futures, async/await)
+Sequential Async Operations:
+Create two async functions: `fetchUserId()` (waits 1s, returns 45) and `fetchUserName(int id)` (waits 1s, returns "Bob" if id is 45). Call `fetchUserId`, then use its result to call `fetchUserName`, printing the final name.",
+"Asynchronous Programming (Futures, async/await)
+Handling Potential Async Error:
+Create an async function `fetchDataOrError` that randomly (or based on input) either returns "Data fetched successfully" after 1 second or throws an Exception("Network error"). Call this function using `await` inside a `try-catch` block to handle both success and error cases.",
+"Asynchronous Programming (Futures, async/await)
+Waiting for Multiple Futures:
+Create two async functions, `taskOne()` (waits 1s, returns "Task 1 Complete") and `taskTwo()` (waits 2s, returns "Task 2 Complete"). Use `Future.wait()` to run both concurrently and print both results once they are *both* finished."

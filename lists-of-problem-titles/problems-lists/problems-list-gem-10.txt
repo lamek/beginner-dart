@@ -1,0 +1,109 @@
+Okay, here are 5 beginner coding exercise ideas for each category in the requested format:
+
+**Variables and Data Types (int, double, String, bool, List, Map)**
+
+"Variables and Data Types (int, double, String, bool, List, Map)
+Personal Profile:
+Create variables to store your name (String), age (int), height in meters (double), and whether you are a student (bool). Print a sentence combining these variables.",
+    "Variables and Data Types (int, double, String, bool, List, Map)
+Simple Interest Calculator:
+Define variables for principal amount (double), rate of interest (double), and time in years (int). Calculate the simple interest (principal * rate * time / 100) and print the result.",
+    "Variables and Data Types (int, double, String, bool, List, Map)
+Favorite Hobbies:
+Create a List<String> to store your favorite hobbies. Add at least three hobbies. Print the number of hobbies and then print each hobby on a new line.",
+    "Variables and Data Types (int, double, String, bool, List, Map)
+Student Grades Map:
+Create a Map<String, int> to store student names (keys) and their scores (values). Add entries for 3 students. Print the score of a specific student by accessing the map using their name.",
+    "Variables and Data Types (int, double, String, bool, List, Map)
+Boolean Flags:
+Create boolean variables like `isRaining`, `isCold`, `hasUmbrella`. Assign them true/false values. Print messages based on these flags (e.g., "Bring an umbrella!" if `isRaining` is true)."
+
+**Operators (arithmetic, comparison, logical)**
+
+"Operators (arithmetic, comparison, logical)
+Rectangle Area and Perimeter:
+Take the width and height of a rectangle as input (or define them as variables). Calculate the area (width * height) and perimeter (2 * (width + height)) using arithmetic operators. Print both results.",
+    "Operators (arithmetic, comparison, logical)
+Age Check:
+Define an age variable (int). Use comparison operators (`>=`, `<`) to check if the age is greater than or equal to 18. Print a message indicating whether the person is an adult or a minor.",
+    "Operators (arithmetic, comparison, logical)
+Even or Odd Number Checker:
+Take an integer as input. Use the modulo operator (`%`) to determine if the number is even or odd (number % 2 == 0). Print the result.",
+    "Operators (arithmetic, comparison, logical)
+Login Eligibility:
+Create boolean variables `isUsernameValid` and `isPasswordValid`. Use the logical AND operator (`&&`) to determine if a user is eligible to log in (both must be true). Print the eligibility status.",
+    "Operators (arithmetic, comparison, logical)
+Discount Applicability:
+Define variables for total purchase amount (double) and membership status (bool `isMember`). Use logical OR (`||`) and comparison (`>`) operators to check if a discount applies (e.g., amount > $50 OR isMember is true). Print whether the discount is applicable."
+
+**Control Flow (if-else, for loops, while loops, switch statements)**
+
+"Control Flow (if-else, for loops, while loops, switch statements)
+Positive, Negative, or Zero:
+Take a number as input. Use if-else if-else statements to check if the number is positive, negative, or zero. Print the appropriate message.",
+    "Control Flow (if-else, for loops, while loops, switch statements)
+Countdown Timer:
+Use a `while` loop to print numbers counting down from 10 to 1. After the loop finishes, print "Blast off!".",
+    "Control Flow (if-else, for loops, while loops, switch statements)
+Print List Elements:
+Create a List of strings (e.g., names of fruits). Use a `for` loop (or `forEach`) to iterate through the list and print each element.",
+    "Control Flow (if-else, for loops, while loops, switch statements)
+Menu Selection:
+Simulate a simple menu using a `switch` statement. Take an integer input (1-4) representing menu options (e.g., 1: View Profile, 2: Edit Settings, 3: Logout, 4: Exit). Print a message corresponding to the selected option.",
+    "Control Flow (if-else, for loops, while loops, switch statements)
+Sum of First N Numbers:
+Take an integer 'N' as input. Use a `for` loop to calculate the sum of all integers from 1 up to N. Print the final sum."
+
+**Functions (parameters, return values)**
+
+"Functions (parameters, return values)
+Greeting Function:
+Create a function `greetUser` that takes a `String` parameter `name`. The function should print a personalized greeting message like "Hello, [name]!". Call the function with your name.",
+    "Functions (parameters, return values)
+Addition Function:
+Create a function `addNumbers` that takes two `int` parameters and returns their sum (`int`). Call the function with sample numbers and print the returned result.",
+    "Functions (parameters, return values)
+Temperature Conversion Function:
+Create a function `celsiusToFahrenheit` that takes a `double` temperature in Celsius as a parameter and returns the equivalent temperature in Fahrenheit (using the formula F=(C*9/5)+32). Call the function and print the result.",
+    "Functions (parameters, return values)
+isEven Function:
+Create a function `isEven` that takes an `int` parameter. It should return `true` if the number is even and `false` otherwise. Call the function with an even and an odd number and print the results.",
+    "Functions (parameters, return values)
+Find Max Function:
+Create a function `findMax` that takes two `int` parameters (`num1`, `num2`) and returns the larger of the two numbers. Call the function and print the maximum value."
+
+**Classes and Objects (inheritance, polymorphism)**
+
+"Classes and Objects (inheritance, polymorphism)
+Simple `Dog` Class:
+Create a class `Dog` with properties like `breed` (String) and `age` (int). Add a method `bark()` that prints "Woof!". Instantiate a `Dog` object, set its properties, and call the `bark()` method.",
+    "Classes and Objects (inheritance, polymorphism)
+`Rectangle` Class with Area Method:
+Create a class `Rectangle` with `width` and `height` (doubles) as properties. Include a method `calculateArea()` that returns the area of the rectangle. Instantiate a `Rectangle`, set its dimensions, and print the result of calling `calculateArea()`.",
+    "Classes and Objects (inheritance, polymorphism)
+Basic Inheritance: `Vehicle` -> `Car`:
+Create a base class `Vehicle` with a property `speed` (int) and a method `accelerate()`. Create a `Car` class that inherits from `Vehicle` and adds a property `numberOfDoors` (int). Instantiate a `Car` object and access properties/methods from both `Vehicle` and `Car`.",
+    "Classes and Objects (inheritance, polymorphism)
+Method Overriding: `Animal` Sounds:
+Create a base class `Animal` with a method `makeSound()` that prints "Generic animal sound". Create a `Cat` class inheriting from `Animal` that overrides `makeSound()` to print "Meow!". Create instances of both and call `makeSound()` on each.",
+    "Classes and Objects (inheritance, polymorphism)
+Polymorphic List: `Shape` Drawing:
+Create an abstract base class `Shape` with an abstract method `draw()`. Create two classes, `Circle` and `Square`, that inherit from `Shape` and implement `draw()` to print "Drawing Circle" and "Drawing Square". Create a `List<Shape>` containing instances of `Circle` and `Square`, then loop through the list calling `draw()` on each element."
+
+**Asynchronous Programming (Futures, async/await)**
+
+"Asynchronous Programming (Futures, async/await)
+Delayed Greeting:
+Create an `async` function that uses `Future.delayed` to wait for 3 seconds and then prints "Hello after 3 seconds!". Call this function from your `main` function using `await`.",
+    "Asynchronous Programming (Futures, async/await)
+Simulate Network Request:
+Create an `async` function `fetchUserData()` that returns a `Future<String>`. Inside, use `Future.delayed` for 2 seconds, then return a dummy user name like "Alice". Call this function using `await` and print the returned user name.",
+    "Asynchronous Programming (Futures, async/await)
+Sequential Async Operations:
+Create two `async` functions, `taskOne()` and `taskTwo()`, each printing a start message, delaying for 1 second, and printing an end message. Call them sequentially using `await` in another `async` function to observe the order of execution.",
+    "Asynchronous Programming (Futures, async/await)
+Future with `.then()`:
+Rewrite the "Delayed Greeting" exercise. Instead of using `async`/`await` to call the function, call the function (which returns a Future) and use the `.then()` method to print the message when the Future completes.",
+    "Asynchronous Programming (Futures, async/await)
+Simulate Failing Request:
+Create an `async` function `fetchDataWithError()` that returns a `Future<String>`. Inside, use `Future.delayed` for 1 second, then throw an Exception("Network error"). Call this function using `await` inside a `try-catch` block in `main` to handle the error gracefully."

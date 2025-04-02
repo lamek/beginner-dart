@@ -1,0 +1,92 @@
+Okay, here are 5 beginner exercise ideas for each category in the requested format for Dart:
+
+"Variables and Data Types (int, double, String, bool, List, Map)
+Personal Profile:
+Declare variables for name (String), age (int), height (double), and isStudent (bool). Assign sample values and print them out in a readable format like 'Name: [name], Age: [age] years, Height: [height]m, Student: [isStudent]'.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Simple Interest Calculator:
+Create variables for principal amount (double), rate of interest (double), and time in years (int). Calculate the simple interest (SI = P*R*T / 100) and print the calculated interest.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Favorite Books List:
+Create a List<String> to store the titles of your favorite books. Add at least three books, then remove one. Print the final list of books and the total number of books in the list.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Student Grades Map:
+Create a Map<String, String> to store student names as keys and their grades (e.g., 'A', 'B+') as values. Add three students and their grades. Print the grade of a specific student by accessing the map using their name.",
+"Variables and Data Types (int, double, String, bool, List, Map)
+Shopping Cart Total:
+Create a List<double> representing the prices of items in a shopping cart. Calculate the total cost by summing up the prices in the list. Print the total cost.",
+"Operators (arithmetic, comparison, logical)
+Rectangle Perimeter and Area:
+Declare variables for the length and width of a rectangle. Calculate and print both the perimeter (2*(length + width)) and the area (length * width) using arithmetic operators.",
+"Operators (arithmetic, comparison, logical)
+Number Comparison:
+Take two integer variables. Use comparison operators (>, <, ==, !=, >=, <=) to compare them. Print messages indicating the relationship (e.g., 'Number A is greater than Number B', 'Number A is equal to Number B').",
+"Operators (arithmetic, comparison, logical)
+Even or Odd Checker:
+Declare an integer variable. Use the modulo operator (%) to determine if the number is even or odd. Print the result (e.g., 'The number is even.' or 'The number is odd.').",
+"Operators (arithmetic, comparison, logical)
+Eligibility Check:
+Declare variables for age (int) and hasLicense (bool). Use logical operators (&&, ||) to check if a person is eligible to drive (age >= 18 AND hasLicense is true). Print whether the person is eligible or not.",
+"Operators (arithmetic, comparison, logical)
+Discount Calculator:
+Declare a variable for the purchase total (double). If the total is greater than $100, apply a 10% discount. Calculate and print the final price using arithmetic and comparison operators.",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Number Sign Checker:
+Take an integer variable. Use if-else if-else statements to check if the number is positive, negative, or zero. Print the appropriate message.",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Print Numbers 1 to N:
+Take an integer variable `n`. Use a `for` loop to print all the numbers from 1 up to (and including) `n`.",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Countdown Timer:
+Use a `while` loop to print a countdown from 10 down to 1, followed by "Blast off!".",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Simple Menu Selection:
+Declare an integer variable representing a menu choice (1-4). Use a `switch` statement to print a different action for each choice (e.g., 1: 'Start Game', 2: 'Load Game', 3: 'Settings', 4: 'Exit'). Include a default case for invalid choices.",
+"Control Flow (if-else, for loops, while loops, switch statements)
+Sum of Even Numbers:
+Use a `for` loop to iterate from 1 to 20. Use an `if` statement inside the loop to check if a number is even. Calculate and print the sum of all the even numbers in that range.",
+"Functions (parameters, return values)
+Greeting Function:
+Write a function named `printGreeting` that takes a `String` parameter `name`. The function should print a greeting message like "Hello, [name]! Welcome to Dart.". Call the function with a sample name.",
+"Functions (parameters, return values)
+Multiply Function:
+Write a function named `multiply` that takes two `double` parameters (`num1`, `num2`) and returns their product. Call the function with sample numbers and print the returned result.",
+"Functions (parameters, return values)
+List Sum Function:
+Write a function named `calculateListSum` that takes a `List<int>` as a parameter and returns the sum of all integers in the list. Call the function with a sample list and print the sum.",
+"Functions (parameters, return values)
+Is Positive Function:
+Write a function named `isPositive` that takes an `int` parameter `number` and returns a `bool` (`true` if the number is greater than 0, `false` otherwise). Call the function and print the boolean result.",
+"Functions (parameters, return values)
+Combine Strings Function:
+Write a function named `combineStrings` that takes two `String` parameters (`str1`, `str2`) and returns a single string that is the concatenation of the two with a space in between. Call the function and print the result.",
+"Classes and Objects (inheritance, polymorphism)
+Simple `Car` Class:
+Define a class named `Car` with properties for `make` (String), `model` (String), and `year` (int). Create an instance (object) of the `Car` class, set its properties, and print them.",
+"Classes and Objects (inheritance, polymorphism)
+`Circle` Class with Area Method:
+Define a class named `Circle` with a property for `radius` (double). Add a constructor to initialize the radius. Add a method `calculateArea()` that returns the area (π * radius^2). Create a `Circle` object and print its calculated area.",
+"Classes and Objects (inheritance, polymorphism)
+`BankAccount` Class:
+Define a class named `BankAccount` with properties for `accountHolderName` (String) and `balance` (double). Add methods `deposit(double amount)` and `withdraw(double amount)` that modify the balance. Ensure withdrawal doesn't allow negative balance. Create an instance and test deposit/withdrawal.",
+"Classes and Objects (inheritance, polymorphism)
+Basic Inheritance - `Vehicle` and `Bicycle`:
+Create a base class `Vehicle` with a property `speed` (double) and a method `move()`. Create a `Bicycle` class that inherits from `Vehicle`. Add a property `numberOfGears` (int) to `Bicycle`. Create a `Bicycle` object and call its `move()` method.",
+"Classes and Objects (inheritance, polymorphism)
+Polymorphism with `Shape`:
+Create a base class `Shape` with a method `draw()` that prints "Drawing a shape.". Create two subclasses, `Circle` and `Square`, that inherit from `Shape` and override the `draw()` method to print "Drawing a circle." and "Drawing a square." respectively. Create a `List<Shape>` containing both `Circle` and `Square` objects and loop through it, calling `draw()` on each.",
+"Asynchronous Programming (Futures, async/await)
+Delayed Message:
+Write an `async` function `printDelayedMessage` that waits for 3 seconds using `Future.delayed` and then prints "Message arrived after delay!". Call this function from `main` using `await`.",
+"Asynchronous Programming (Futures, async/await)
+Simulate Data Fetch:
+Write an `async` function `fetchUserData` that simulates fetching data by waiting for 2 seconds and then returning a `Map<String, dynamic>` like `{'name': 'Alice', 'id': 123}`. Call this function using `await` and print the fetched user data.",
+"Asynchronous Programming (Futures, async/await)
+Sequential Async Operations:
+Create two `async` functions, `stepOne` (waits 1 second, prints "Step 1 Complete") and `stepTwo` (waits 2 seconds, prints "Step 2 Complete"). Call them sequentially from `main` using `await` for each, observing the total time taken.",
+"Asynchronous Programming (Futures, async/await)
+Future Result Handling:
+Write an `async` function `calculateSquareAsync` that takes an `int`, waits 1 second, and returns the square of the number. In `main`, call this function using `await`, store the `Future<int>` result in a variable, and print the calculated square.",
+"Asynchronous Programming (Futures, async/await)
+Simulate Login Process:
+Write an `async` function `simulateLogin` that takes a username `String`. Inside, wait for 1.5 seconds. If the username is "admin", return `true`, otherwise return `false`. Call this function with `await` and print "Login successful" or "Login failed" based on the returned boolean."

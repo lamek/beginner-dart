@@ -1,0 +1,133 @@
+Okay, here are 5 beginner coding exercise ideas for each category, formatted as requested, suitable for learning Dart:
+
+**Variables and Data Types (int, double, String, bool, List, Map)**
+
+Variables and Data Types (int, double, String, bool, List, Map)
+Personal Profile:
+Create variables to store your name (String), age (int), height in meters (double), and whether you are a student (bool). Print each variable with a descriptive label.
+
+Variables and Data Types (int, double, String, bool, List, Map)
+Rectangle Calculations:
+Declare two double variables for the width and height of a rectangle. Calculate its area (width * height) and perimeter (2 * (width + height)). Print the results.
+
+Variables and Data Types (int, double, String, bool, List, Map)
+Shopping List Manager:
+Create a `List<String>` to represent a shopping list. Add three items, remove one, and then print the final number of items and the list itself.
+
+Variables and Data Types (int, double, String, bool, List, Map)
+Student Gradebook:
+Create a `Map<String, int>` where keys are subject names (Strings) and values are grades (ints). Add at least three subjects and their grades. Print the grade for a specific subject.
+
+Variables and Data Types (int, double, String, bool, List, Map)
+Simple Boolean Logic:
+Create two boolean variables, `isRaining` and `haveUmbrella`. Print a message indicating whether it's safe to go out (e.g., "Go out" if not raining or if have umbrella, "Stay inside" otherwise).
+
+**Operators (arithmetic, comparison, logical)**
+
+Operators (arithmetic, comparison, logical)
+Basic Calculator:
+Declare two integer variables. Use arithmetic operators (+, -, *, /) to calculate their sum, difference, product, and quotient. Print each result.
+
+Operators (arithmetic, comparison, logical)
+Age Comparator:
+Declare two integer variables representing the ages of two people. Use comparison operators (>, <, ==) to determine and print if person 1 is older, younger, or the same age as person 2.
+
+Operators (arithmetic, comparison, logical)
+Discount Calculator:
+Declare a double variable for an item's price and a boolean `isMember`. If the price is greater than $50 AND the customer is a member, apply a 10% discount (price * 0.9). Print the final price.
+
+Operators (arithmetic, comparison, logical)
+Even or Odd Determiner:
+Declare an integer variable. Use the modulo operator (%) to check if the number is even or odd. Print the result (e.g., "The number is even." or "The number is odd.").
+
+Operators (arithmetic, comparison, logical)
+Temperature Check:
+Declare a double variable for temperature in Celsius. Use comparison operators (<, >) and logical operators (&&) to print if the temperature is suitable for shorts (e.g., between 20 and 30 degrees Celsius).
+
+**Control Flow (if-else, for loops, while loops, switch statements)**
+
+Control Flow (if-else, for loops, while loops, switch statements)
+Grade Classifier:
+Declare an integer variable for a student's score (0-100). Use if-else if-else statements to print the corresponding letter grade (e.g., 90-100: A, 80-89: B, etc.).
+
+Control Flow (if-else, for loops, while loops, switch statements)
+Counting with For Loop:
+Use a `for` loop to print the numbers from 1 to 10, each on a new line.
+
+Control Flow (if-else, for loops, while loops, switch statements)
+Simple Number Guessing Prompt:
+Use a `while` loop to repeatedly ask the user to guess a secret number (predefined, e.g., 7). The loop should continue as long as the guess is incorrect. (Note: Requires input handling, might be slightly advanced for absolute beginners but good for `while`). *Alternative simpler while:* Countdown from 5 using a while loop.
+
+Control Flow (if-else, for loops, while loops, switch statements)
+Day of the Week Printer:
+Declare an integer variable representing a day number (1-7). Use a `switch` statement to print the corresponding day name (1: "Monday", 2: "Tuesday", ..., 7: "Sunday"). Include a default case for invalid numbers.
+
+Control Flow (if-else, for loops, while loops, switch statements)
+Summation with For Loop:
+Use a `for` loop to calculate the sum of all integers from 1 to 100. Print the final sum.
+
+**Functions (parameters, return values)**
+
+Functions (parameters, return values)
+Personalized Greeter Function:
+Create a function `greetUser` that takes a `String` parameter `name` and prints a personalized greeting like "Hello, [name]!". Call this function with your name.
+
+Functions (parameters, return values)
+Addition Function:
+Create a function `addNumbers` that takes two `int` parameters and returns their sum (`int`). Call the function with two numbers and print the returned result.
+
+Functions (parameters, return values)
+Rectangle Area Function:
+Create a function `calculateRectangleArea` that takes two `double` parameters, `width` and `height`, and returns their product (`double`). Call the function and print the area.
+
+Functions (parameters, return values)
+Is Even Function:
+Create a function `isEven` that takes an `int` parameter and returns a `bool` indicating whether the number is even (`true`) or odd (`false`). Call the function and print the result.
+
+Functions (parameters, return values)
+List Average Calculator Function:
+Create a function `calculateAverage` that takes a `List<double>` as a parameter and returns the average (`double`) of the numbers in the list. Handle the case of an empty list (e.g., return 0).
+
+**Classes and Objects (inheritance, polymorphism)**
+
+Classes and Objects (inheritance, polymorphism)
+Basic Person Class:
+Define a `Person` class with `name` (String) and `age` (int) properties. Add a method `introduceYourself()` that prints "Hi, my name is [name] and I am [age] years old.". Create an instance (object) of `Person` and call the method.
+
+Classes and Objects (inheritance, polymorphism)
+Simple Dog Class:
+Define a `Dog` class with `breed` (String) property and a `bark()` method that prints "Woof!". Create two different `Dog` objects (e.g., Labrador, Poodle) and make them bark.
+
+Classes and Objects (inheritance, polymorphism)
+Counter Class:
+Define a `Counter` class with an integer property `count` initialized to 0. Add methods `increment()`, `decrement()`, and `getCount()` which returns the current count. Create a `Counter` object and test its methods.
+
+Classes and Objects (inheritance, polymorphism)
+Basic Vehicle Inheritance:
+Define a base class `Vehicle` with a `speed` property and a `move()` method printing "Moving at [speed] km/h". Create a `Car` class that inherits from `Vehicle`, adds a `numberOfDoors` property, and overrides `move()` to print "Car driving at [speed] km/h". Create a `Car` object and call `move()`.
+
+Classes and Objects (inheritance, polymorphism)
+Book Class and Inventory:
+Define a `Book` class with `title` and `author` (both Strings). Create a constructor to initialize these properties. Create a `List<Book>` and add several `Book` objects to it. Iterate through the list and print the title and author of each book.
+
+**Asynchronous Programming (Futures, async/await)**
+
+Asynchronous Programming (Futures, async/await)
+Delayed Greeting:
+Use `Future.delayed` with a `Duration` of 2 seconds to print a message "Hello after 2 seconds!" after the delay. Use `.then()` or `async/await` to handle the Future.
+
+Asynchronous Programming (Futures, async/await)
+Simulated Data Fetch:
+Create an `async` function `fetchUserData()` that simulates fetching data by waiting for 3 seconds using `Future.delayed` and then returns a `Map<String, String>` like `{'name': 'Alice', 'id': '123'}`. Call this function using `await` and print the fetched user name.
+
+Asynchronous Programming (Futures, async/await)
+Sequential Async Tasks:
+Create two simple `async` functions, `task1()` and `task2()`, each using `Future.delayed` for 1 second before printing "Task 1 complete" and "Task 2 complete". Call them sequentially using `await` inside another `async` function `runTasks()` to ensure Task 1 finishes before Task 2 starts.
+
+Asynchronous Programming (Futures, async/await)
+Async Function Returning Value:
+Create an `async` function `fetchWeather()` that uses `Future.delayed` for 1 second and then returns the String "Sunny". Call this function using `await` and print the returned weather forecast.
+
+Asynchronous Programming (Futures, async/await)
+Simple Future Value:
+Create a function `getImmediateData()` that returns an already completed `Future<String>` using `Future.value("Data is ready")`. Use `await` to get the value from the future and print it.
