@@ -1,7 +1,6 @@
-```markdown
 ---
-title: Animal Sounds (Inheritance and Polymorphism)
-category: Object-Oriented Programming
+title: Animal Sounds
+category: Classes and Objects
 difficulty: Beginner
 focus:
   - class

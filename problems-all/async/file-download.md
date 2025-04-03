@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Simulated File Download
 category: Asynchronous Programming
@@ -83,5 +82,4 @@ Starting download for important_data.csv...
 // (Pause for 3 seconds)
 Download complete for important_data.csv!
 Download process finished.
-```
 ```

@@ -1,6 +1,3 @@
-Okay, here is the problem and solution formatted into the template structure.
-
-```markdown
 ---
 title: Simple Interest Calculator using Functions
 category: Functions
@@ -84,29 +81,18 @@ void main() {
 // Function to calculate simple interest
 // Takes principal, rate (as percentage), and time (in years) as input
 // Returns the calculated simple interest as a double
+
 double calculateSimpleInterest(double principal, double rate, double time) {
   // Calculate simple interest using the formula: (P * R * T) / 100
-  double interest = (principal * rate * time) / 100;
-  return interest; // Return the calculated amount
+  // Return the calculated amount
 }
 
 void main() {
   // Define sample input values
-  double principalAmount = 5000.0; // Example principal amount
-  double annualRate = 3.5;       // Example annual interest rate (3.5%)
-  double timeInYears = 2.0;        // Example time period in years
 
   // Call the function to calculate the interest
-  double simpleInterest = calculateSimpleInterest(principalAmount, annualRate, timeInYears);
 
   // Print the input values and the calculated result
-  print("--- Simple Interest Calculation ---");
-  print("Principal Amount: \$${principalAmount.toStringAsFixed(2)}");
-  print("Annual Interest Rate: ${annualRate}%");
-  print("Time Period: ${timeInYears} years");
-  print("-----------------------------------");
-  // Using toStringAsFixed(2) to format the currency nicely to two decimal places
-  print("The calculated simple interest is: \$${simpleInterest.toStringAsFixed(2)}");
+
 }
-```
 ```

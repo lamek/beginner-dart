@@ -1,7 +1,6 @@
-```markdown
 ---
 title: Shape Hierarchy and Polymorphism
-category: Object-Oriented Programming
+category: Classes and Objects
 difficulty: Beginner
 focus:
   - class

@@ -1,5 +1,3 @@
-Okay, here is the "String Reverser Function" problem formatted using the provided template:
-
 ---
 title: String Reverser Function
 category: Functions
@@ -16,7 +14,7 @@ focus:
 
 ## Problem Description
 
-**Goal:** Write a Dart function that takes a single string as input and returns that string reversed.
+Write a Dart function that takes a single string as input and returns that string reversed.
 
 ## Requirements
 
@@ -67,54 +65,6 @@ void main() {
   // Add more test cases if you like:
   // print("Reversing 'world': ${reverseString('world')}");
   // print("Reversing 'level': ${reverseString('level')}");
-}
-```
-
-## Solution Code (Optional Reference)
-
-```dart
-import 'dart:io'; // Not strictly needed for this specific solution, but good practice
-
-// Function Definition:
-// Takes a String 'inputString' as a parameter.
-// Returns a reversed String.
-String reverseString(String inputString) {
-  // 1. Split the string into a list of characters.
-  //    Example: "hello" -> ["h", "e", "l", "l", "o"]
-  List<String> characters = inputString.split('');
-
-  // 2. Reverse the list of characters.
-  //    Example: ["h", "e", "l", "l", "o"] -> ["o", "l", "l", "e", "h"]
-  List<String> reversedCharacters = characters.reversed.toList();
-
-  // 3. Join the reversed list of characters back into a single string.
-  //    Example: ["o", "l", "l", "e", "h"] -> "olleh"
-  String reversedString = reversedCharacters.join('');
-
-  // 4. Return the reversed string.
-  return reversedString;
-
-  // --- Alternative Shorter Syntax ---
-  // You could achieve the same result in one line:
-  // return inputString.split('').reversed.join('');
-}
-
-// Main function - the entry point of the program
-void main() {
-  // Define the string we want to reverse
-  String originalString = "Dart Programming";
-
-  // Call the reverseString function with our string
-  String result = reverseString(originalString);
-
-  // Print the original and the reversed strings
-  print("Original String: $originalString");
-  print("Reversed String: $result");
-
-  // Example with another string
-  String anotherString = "hello";
-  print("\nOriginal String: $anotherString");
-  print("Reversed String: ${reverseString(anotherString)}"); // Calling directly in print
 }
 
 ```

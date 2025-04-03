@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Finding the Maximum of Three Numbers
 category: Functions
@@ -17,7 +16,7 @@ focus:
 
 ## Problem Description
 
-**Goal:** Write a Dart program that finds the maximum of three given numbers using a function.
+Write a Dart program that finds the maximum of three given numbers using a function.
 
 ## Requirements
 
@@ -42,7 +41,7 @@ This problem focuses on:
 *   Calling a function from `main` and using its result.
 *   Printing output using string interpolation.
 
-## Solution Code
+## Boilerplate Code
 
 ```dart
 // Function definition: findMaximum
@@ -50,20 +49,14 @@ This problem focuses on:
 // Returns the largest number among the three.
 num findMaximum(num a, num b, num c) {
   // Assume the first number is the maximum initially
-  num maximum = a;
 
   // Compare with the second number
-  if (b > maximum) {
-    maximum = b; // Update maximum if b is larger
-  }
+  // Update maximum if b is larger
 
   // Compare with the third number
-  if (c > maximum) {
-    maximum = c; // Update maximum if c is larger
-  }
+  // Update maximum if c is larger
 
   // Return the final maximum value found
-  return maximum;
 }
 
 // Main function - the entry point of the program
@@ -89,6 +82,4 @@ void main() {
   print("\nComparing numbers: $numA, $numB, $numC");
   print("The maximum number is: $result2"); // Output: The maximum number is: 10.5
 }
-```
-
 ```

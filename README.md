@@ -1,6 +1,6 @@
 # Beginner Dart
 
-Welcome to Beginner Dart! This repository is a collection of beginner-friendly Dart programming problems, designed to help you learn and practice the fundamentals of [the Dart programmign language](https://dart.dev).
+Welcome to Beginner Dart! This repository is a collection of beginner-friendly Dart programming problems, designed to help you learn and practice the fundamentals of [the Dart programming language](https://dart.dev).
 
 ## What's Inside
 
@@ -42,4 +42,4 @@ Here's how you can contribute:
 
 ## License
 
-This project is licensed under the MIT License. See [the `LICENSE` file](/LICENSE) for more information.
+This project is licensed under the MIT License. See the [`LICENSE`](/LICENSE) file for more information.

@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Vehicle Inheritance Hierarchy
 category: Object-Oriented Programming
@@ -101,5 +100,4 @@ void main() {
   // myCar.displayInfo();
   // myMotorcycle.displayInfo();
 }
-```
 ```

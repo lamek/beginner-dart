@@ -1,7 +1,5 @@
-Okay, here is the problem content formatted into the provided template structure.
-
 ---
-title: Concurrent Data Fetching with Future.wait
+title: Concurrent Data Fetching (with Future.wait)
 category: Asynchronous Programming
 difficulty: Beginner
 focus:
@@ -17,12 +15,12 @@ focus:
 
 ## Problem Description
 
-**Goal:** Simulate fetching different pieces of user data concurrently from various sources and display them only after all data has been retrieved.
+Simulate fetching different pieces of user data concurrently from various sources and display them only after all data has been retrieved.
 
 **Scenario:**
 Imagine you need to fetch a user's name, age, and favorite hobby. Each piece of data comes from a different asynchronous source (which we'll simulate using timed delays).
 
-## Requirements / Tasks
+## Requirements
 
 1.  **Create Asynchronous Functions:**
     *   Create a function `fetchUserName()` that simulates fetching a user's name. It should return a `Future<String>` that completes with the value `"Alice"` after a delay of 2 seconds.
