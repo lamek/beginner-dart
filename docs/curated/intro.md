@@ -4,6 +4,8 @@ title: Introduction to Curated Problems
 category: curated
 ---
 
+!!! STILL UNDER CONSTRUCTION !!!
+
 # Introduction to Curated Problems
 
 Welcome to the curated collection of Dart problems! This section is designed to guide you through the fundamentals of Dart in a structured and progressive manner.
