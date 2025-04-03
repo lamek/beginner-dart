@@ -1,6 +1,6 @@
 # Beginner Dart
 
-Welcome to Beginner Dart! This repository is a collection of beginner-friendly Dart programming problems, designed to help you learn and practice the fundamentals of the Dart language.
+Welcome to Beginner Dart! This repository is a collection of beginner-friendly Dart programming problems, designed to help you learn and practice the fundamentals of [the Dart programmign language](https://dart.dev).
 
 ## What's Inside
 
@@ -8,10 +8,10 @@ Currently, this repository contains a growing set of generated Dart problems. Th
 
 The plan is to organize these problems into three distinct "views" to cater to different learning styles and needs:
 
-* [**Curated View:**](/curated/intro.md)
+* [**Curated View:**](/docs/curated/intro.md)
     * A carefully selected sequence of problems designed to guide beginner Dart programmers through the language's core concepts in a logical and progressive manner.
     * Think of this as a guided tour of Dart, perfect for those just starting their journey.
-* [**Category View:**](/categores/overview.md)
+* [**Category View:**](/docs/categories/overview.md)
     * Problems grouped by specific Dart categories (e.g., variables, functions, classes, asynchronous programming).
     * Each category will include a brief introduction and explanation of the relevant concepts, making it a valuable resource for focused study or supplemental learning.
 * [**Reference View:**](/problems-all/)

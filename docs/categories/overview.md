@@ -14,31 +14,31 @@ This section organizes Dart programming problems into distinct categories, allow
     * This category focuses on working with Dart's fundamental data types and collections.
     * Problems cover variable declaration, data type conversions, and using lists and maps.
     * Examples:
-        * [Temperature Converter](problems-all/variables/problem_variables_01.md)
-        * [Grocery List](problems-all/variables/problem_variables_02.md)
-        * [Personal Profile](problems-all/variables/problem_variables_03.md)
-        * [Simple Contact Book](problems-all/variables/problem_variables_04.md)
-        * [Average Score Calculator](problems-all/variables/problem_variables_05.md)
+        * [Temperature Converter](problems-all/var-data/temp-convert.md)
+        * [Grocery List](problems-all/var-data/grocery-list.md)
+        * [Personal Profile](problems-all/var-data/personal-profile.md)
+        * [Simple Contact Book](problems-all/var-data/contact-book.md)
+        * [Average Score Calculator](problems-all/var-data/avg-calc.md)
 
 * **Operators (arithmetic, comparison, logical)**
     * This category explores Dart's operators, including arithmetic, comparison, and logical operators.
     * Problems involve performing calculations, making comparisons, and using logical conditions.
     * Examples:
-        * [Simple Calculator](problems-all/operators/problem_operators_01.md)
-        * [Even or Odd Checker](problems-all/operators/problem_operators_02.md)
-        * [Age Eligibility Check](problems-all/operators/problem_operators_03.md)
-        * [Discount Applicator](problems-all/operators/problem_operators_04.md)
-        * [Rectangle Area vs Perimeter](problems-all/operators/problem_operators_05.md)
+        * [Simple Calculator](problems-all/operators/simple-calc.md)
+        * [Even or Odd Checker](problems-all/operators/even-odd-check.md)
+        * [Age Eligibility Check](problems-all/operators/age-compare.md)
+        * [Event Access Checker](problems-all/operators/event-access.md)
+        * [Rectangle Area vs Perimeter](problems-all/operators/discount.md)
 
 * **Control Flow (if-else, for loops, while loops, switch statements)**
     * This category focuses on controlling the flow of execution in Dart programs.
     * Problems involve using conditional statements, loops, and switch statements.
     * Examples:
-        * [Grade Classifier](problems-all/control_flow/problem_control_flow_01.md)
-        * [Number Guessing Game (Simple)](problems-all/control_flow/problem_control_flow_02.md)
-        * [Print Even Numbers](problems-all/control_flow/problem_control_flow_03.md)
-        * [Simple Menu (Switch)](problems-all/control_flow/problem_control_flow_04.md)
-        * [Countdown Timer](problems-all/control_flow/problem_control_flow_05.md)
+        * [Grade Calculator](problems-all/control_flow/grade-check.md)
+        * [Print Even Numbers](problems-all/control_flow/print-even.md)
+        * [Countdown Timer](problems-all/control_flow/countdown.md)
+        * [Day of the Week](problems-all/control_flow/day-of-week.md)
+        * [Factorial Calculator](problems-all/control_flow/factorial.md)
 
 * **Functions (parameters, return values)**
     * This category explores how to define and use functions in Dart.
