@@ -75,4 +75,4 @@ This section organizes Dart programming problems into distinct categories, allow
 1.  **Choose a Category:** Select a category that aligns with your learning goals.
 2.  **Review the Introduction:** Read the brief introduction to understand the concepts covered in the category.
 3.  **Solve the Problems:** Work through the problems in the category to practice and reinforce your understanding.
-4.  **Refer to the Reference:** If you need more information or examples, refer to the [problem reference](../problems-all/problem_variables_01.md) section.
+4.  **Refer to the Reference:** If you need more information or examples, refer to the [problem reference](../problems-all/) section.
