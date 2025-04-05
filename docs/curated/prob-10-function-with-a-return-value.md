@@ -1,6 +1,6 @@
 ---
 date: 2025-04-15
-title: Problem 10: Functions That Return Values (Calculating Area)
+title: Problem 10 - Functions That Return Values (Calculating Area)
 category: curated
 difficulty: beginner
 concepts: functions, return keyword, return types, parameters, int, arithmetic
@@ -90,7 +90,7 @@ void main() {
 
 ## Solution
 
-`[View the Solution](curated-solutions/cur-problem-10-solution.md)`
+[View the Solution](curated-solutions/prob-10-solution.md)
 
 ## Further Practice
 

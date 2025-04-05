@@ -1,6 +1,6 @@
 ---
 date: 2025-04-07
-title: Problem 3: Combining and Inspecting Strings
+title: Problem 3 - Combining and Inspecting Strings
 category: curated
 difficulty: beginner
 concepts: String, concatenation, length, variables
@@ -67,7 +67,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-03-solution.md)
+[View the Solution](curated-solutions/prob-03-solution.md)
 
 ## Further Practice
 
@@ -81,4 +81,4 @@ Ready to practice strings more?
 
 ### Explore More Problems:
 
-You can find more problems related to strings in the [Strings category](../categories/strings.md).
+You can find more problems related to strings in the [Variables and Data Types category](../categories/variables.md).

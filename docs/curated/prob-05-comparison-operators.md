@@ -1,6 +1,6 @@
 ---
-date: 2025-04-09 # Adjusted date slightly
-title: Problem 5: Comparing Values
+date: 2025-04-05
+title: Problem 5 - Comparing Values
 category: curated
 difficulty: beginner
 concepts: comparison operators, boolean values, operators
@@ -78,7 +78,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-05-solution.md)
+[View the Solution](curated-solutions/prob-05-solution.md)
 
 ## Further Practice
 
@@ -96,4 +96,4 @@ Want to get more comfortable with comparisons? Try these:
 
 ### Explore More Problems:
 
-You can find more problems related to operators and making decisions in the [Operators category](../categories/operators.md) and the upcoming [Control Flow category](../categories/control-flow.md).
+You can find more problems related to operators and making decisions in the [Operators category](../categories/operators.md).

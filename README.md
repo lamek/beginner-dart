@@ -2,6 +2,14 @@
 
 Welcome to Beginner Dart! This repository is a collection of beginner-friendly Dart programming problems, designed to help you learn and practice the fundamentals of [the Dart programming language](https://dart.dev).
 
+> **IMPORTANT:**
+>
+> Almost all of the content is this repo is AI-generated -> human-curated.
+> The main goals of this repo are as follows:
+> 1. Experiment with AI content generation -> human curation
+> 2. Create a beginner resouce for new Dart programmers
+> 3. Create a repo of beginner level Dart resouces for anyone to use as they wish.
+
 ## What's Inside
 
 Currently, this repository contains a growing set of generated Dart problems. These problems are created using AI content generation, allowing for rapid experimentation and expansion.

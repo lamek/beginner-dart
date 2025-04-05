@@ -1,6 +1,6 @@
 ---
-date: 2025-04-12 # Adjusted date slightly
-title: Problem 7: Repeating Actions with `for` Loops
+date: 2025-04-05
+title: Problem 7 - Repeating Actions with `for` Loops
 category: curated
 difficulty: beginner
 concepts: for loop, iteration, control flow, print
@@ -70,7 +70,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-07-solution.md)
+[View the Solution](curated-solutions/prob-07-solution.md)
 
 ## Further Practice
 
@@ -84,4 +84,4 @@ Want to get more comfortable with `for` loops? Try these variations:
 
 ### Explore More Problems:
 
-Find more challenges involving loops in the [Loops category](../categories/loops.md) or the [Control Flow category](../categories/control_flow.md).
+Find more challenges involving loops in the [Control Flow category](../categories/control-flow.md).

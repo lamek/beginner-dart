@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 2: Working with Doubles and Basic Math
+title: Problem 2 - Working with Doubles and Basic Math
 category: curated
 difficulty: beginner
 concepts: variables, data types (double, var), arithmetic operators, print
@@ -66,7 +66,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-02-solution.md)
+[View the Solution](curated-solutions/prob-02-solution.md)
 
 ## Further Practice
 
@@ -80,4 +80,4 @@ Want to practice more with `double` and calculations?
 
 ### Explore More Problems:
 
-You can find more problems related to numbers and operations in the [Variables and Data Types category](../categories/variables.md) or potentially a future "Numeric Operations" category.
+You can find more problems related to numbers and operations in the [Variables and Data Types category](../categories/variables.md).

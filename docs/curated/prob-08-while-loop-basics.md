@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 8: While Loop Basics - Countdown!
+title: Problem 8 - While Loop Basics - Countdown!
 category: curated
 difficulty: beginner
 concepts: while loop, loops, control flow, boolean condition, iteration
@@ -76,7 +76,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-08-solution.md)
+[View the Solution](curated-solutions/prob-08-solution.md)
 
 ## Further Practice
 

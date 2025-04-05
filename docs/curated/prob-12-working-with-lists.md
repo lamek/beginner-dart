@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 12: Working with Lists - Your Favorite Fruits
+title: Problem 12 - Working with Lists
 category: curated
 difficulty: beginner
 concepts: lists, List<T>, add, access by index, iteration, for-in loop, length
@@ -80,7 +80,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-12-solution.md)
+[View the Solution](curated-solutions/prob-12-solution.md)
 
 ## Further Practice
 
@@ -94,4 +94,4 @@ Want to explore lists more?
 
 ### Explore More Problems:
 
-You can find more problems related to collections in the [Lists category](../categories/lists.md).
+You can find more problems related to collections in the [Lists category](../categories/collections.md).

@@ -1,6 +1,6 @@
 ---
 date: 2025-04-5
-title: Problem 6: Making Simple Decisions with if-else
+title: Problem 6 - Making Simple Decisions with if-else
 category: curated
 difficulty: beginner
 concepts: if-else, conditional statements, comparison operators, boolean expressions
@@ -76,7 +76,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-06-solution.md)
+[View the Solution](curated-solutions/prob-06-solution.md)
 
 ## Further Practice
 

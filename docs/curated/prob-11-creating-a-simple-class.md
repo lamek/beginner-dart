@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 11: Creating Your First Class
+title: Problem 11 - Creating Your First Class
 category: curated
 difficulty: beginner
 concepts: classes, objects, properties, instance variables, instantiation
@@ -88,7 +88,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-11-solution.md)
+[View the Solution](curated-solutions/prob-11-solution.md)
 
 ## Further Practice
 

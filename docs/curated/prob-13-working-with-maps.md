@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 13: Exploring Maps - Fruit Inventory
+title: Problem 13 - Exploring Maps
 category: curated
 difficulty: beginner
 concepts: maps, data structures, key-value pairs, Map methods (containsKey, containsValue)
@@ -80,7 +80,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-13-solution.md)
+[View the Solution](curated-solutions/prob-13-solution.md)
 
 ## Further Practice
 

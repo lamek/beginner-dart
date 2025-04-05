@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 9: Creating Your First Function
+title: Problem 9 - Creating Your First Function
 category: curated
 difficulty: beginner
 concepts: functions, parameters, void, function call
@@ -60,7 +60,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-09-solution.md) <!-- Assuming problem 9 -->
+[View the Solution](curated-solutions/prob-09-solution.md)
 
 ## Further Practice
 

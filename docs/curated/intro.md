@@ -26,7 +26,7 @@ This curated path will guide you through the following problems:
 ### Variables and Data Types (Focus: Basic)
 
 * [Problem 1: Simple Variable Declaration](prob-01-variable-declaration.md) - Introducing `var`, `String`, `int`.
-* [Problem 2: Working with Doubles](prob-02-working-with-doubles.md) - Basic arithmetic with `double`. (Perhaps the Temperature Converter, simplified initially)
+* [Problem 2: Working with Doubles](prob-02-working-with-doubles.md) - Basic arithmetic with `double`.
 * [Problem 3: String Manipulation](prob-03-string-manipulation.md) - Concatenation and basic string properties.
 
 ### Operators (Focus: Arithmetic and Comparison)

@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 4: Basic Arithmetic Operations
+title: Problem 4 - Basic Arithmetic Operations
 category: curated
 difficulty: beginner
 concepts: arithmetic operators (+, -, *, /), variables (int, double), print
