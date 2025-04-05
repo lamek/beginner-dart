@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 1: Declaring Your First Variables
+title: Problem 1 - Declaring Your First Variables
 category: curated
 difficulty: beginner
 concepts: variables, data types (String, int, var)
@@ -66,7 +66,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](docs/curated/curated-solutions/prob-01-solution.md)
+[View the Solution](curated-solutions/prob-01-solution.md)
 
 ## Further Practice
 
@@ -80,4 +80,4 @@ Want to solidify your understanding of variables? Try these exercises:
 
 ### Explore More Problems:
 
-You can find more problems related to variables and data types in the [Variables and Data Types category](categories/variables.md).
+You can find more problems related to variables and data types in the [Variables and Data Types category](../categories/variables.md).
