@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 15: Introduction to Null Safety
+title: Problem 15 - Introduction to Null Safety
 category: curated
 difficulty: beginner
 concepts: null safety, nullable types, null-aware operator (?)
@@ -99,7 +99,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-15-solution.md)
+[View the Solution](curated-solutions/prob-15-solution.md)
 
 ## Further Practice
 

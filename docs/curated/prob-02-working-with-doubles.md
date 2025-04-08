@@ -44,7 +44,7 @@ Create a new Dart file (e.g., `temperature_converter.dart`) and write your solut
 Or, use DartPad. Copy this boilerplate code and fill in the logic:
 
 ```dart
-void main() {
+**void main() {
   // 1. Declare the celsius variable (use double)
   double celsius = 25.0; // You can change this value to test
 
@@ -54,7 +54,7 @@ void main() {
 
   // 3. Print the result
   // Use print() to display the output string
-}
+}**
 ```
 
 ## Need Some Hints?

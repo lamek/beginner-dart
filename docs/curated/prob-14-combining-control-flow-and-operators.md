@@ -1,6 +1,6 @@
 ---
 date: 2025-04-05
-title: Problem 14: Combining Decisions with Operators
+title: Problem 14 - Combining Decisions with Operators
 category: curated
 difficulty: beginner
 concepts: if/else, comparison operators (>, <, ==), logical operators (&&), modulo operator (%), variables
@@ -79,7 +79,7 @@ void main() {
 
 ## Solution
 
-[View the Solution](curated-solutions/cur-problem-14-solution.md)
+[View the Solution](curated-solutions/prob-14-solution.md)
 
 ## Further Practice
 

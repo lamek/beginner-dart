@@ -37,6 +37,7 @@ The plan is to organize these problems into three distinct "views" to cater to d
 * Continue to experiment with AI content generation to expand the problem set.
 * Refine and curate the "views" to provide a high-quality learning experience.
 * Potentially build out a dedicated website for improved navigation and presentation.
+* Add some docs and share some of the cleaned up scripts used to generate this content
 
 ## Contributions
 
